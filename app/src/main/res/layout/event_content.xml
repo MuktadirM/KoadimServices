@@ -10,6 +10,4 @@
         android:id="@+id/Event_content_recycler"
         >
     </androidx.recyclerview.widget.RecyclerView>
-
-
 </LinearLayout>

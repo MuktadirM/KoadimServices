@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content"
                 android:text="Category Name"
                 android:textStyle="bold"
-                android:textSize="20sp"
+                android:textSize="19sp"
                 android:padding="10dp"
                 android:layout_margin="5dp"
                 android:textColor="@color/white"

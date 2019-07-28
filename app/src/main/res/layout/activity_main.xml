@@ -18,6 +18,7 @@
             android:id="@+id/TabLayoutContent"
             android:background="@drawable/tab_background_color"
             app:tabTextColor="@color/white"
+            app:tabTextAppearance="@style/TextAppearance.MaterialComponents.Headline6"
             >
 
         </com.google.android.material.tabs.TabLayout>

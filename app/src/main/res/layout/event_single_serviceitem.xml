@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/Event_service_itemLayout"
+    android:background="@drawable/gradian_color_card_background"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:layout_margin="0.5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        >
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="4dp"
+                android:layout_margin="5dp"
+                >
+
+
+            <ImageView
+                android:id="@+id/Event_Service_image"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/gradian_color_image_holder"
+                />
+            </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/Event_Service_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Service name"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
